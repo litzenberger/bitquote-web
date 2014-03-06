@@ -1,0 +1,32 @@
+{
+  "name": "bitquote-web",
+  "version": "0.1.0",
+  "description": "seneca micro-services project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litzenberger/bitquote-web.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "seneca",
+    "bitquote",
+    "micro-services"
+  ],
+  "author": "ron litzenberger (@litzenberger)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/litzenberger/bitquote-web/issues"
+  },
+  "homepage": "https://github.com/litzenberger/bitquote-web",
+  "dependencies": {
+    "express": "^3.4.8",
+    "bitquote": "^0.2.0",
+    "seneca": "^0.5.15",
+    "connect": "^2.14.1",
+    "underscore": "^1.6.0"
+  }
+}
