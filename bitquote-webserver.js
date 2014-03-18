@@ -5,9 +5,6 @@ var seneca = require('seneca')().client()
 
 
 app.get('/', function(req, res){
-seneca.use('transport',{
-  pins:[ {plugin:'bitquote',cmd:'current'} ]
-})
 
 seneca.act( {plugin:'bitquote', cmd:'current'}, 
             function(err,result) {
